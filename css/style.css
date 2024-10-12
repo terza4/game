@@ -1,0 +1,50 @@
+body {
+    background-color: #13151C;
+    font-family: sans-serif;
+}
+#naslov{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+ 
+#main-container {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translate(0, -54%);
+}
+ 
+#logo {
+    display: block;
+    margin: 36px auto;
+    max-width: 80%;
+}
+ 
+#my-canvas {
+    display: block;
+    margin: 0 auto;
+    border: 12px solid #E5E7FF;
+    width: 63%;
+    max-width: 1280px;
+    max-height: 720px;
+}
+#game{
+    color: white;
+}
+ 
+@media only screen and (max-width: 999px) {
+    #logo {
+        width: 300px;
+        margin: 22px auto;
+    }
+}
+ 
+@media only screen and (max-width: 768px) {
+    #logo {
+        width: 240px;
+        margin: 18px auto;
+    }
+}
+
